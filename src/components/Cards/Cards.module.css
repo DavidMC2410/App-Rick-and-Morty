@@ -1,0 +1,11 @@
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.mensaje{
+    font-size: 65px;
+    color: greenyellow;
+    margin-top: 150px;
+    font-weight: 800;
+};

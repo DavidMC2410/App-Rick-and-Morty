@@ -1,0 +1,17 @@
+.contain{
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+    align-items: center;
+}
+.textDetail{
+    color: aquamarine;
+    font-size: 24px;
+    font-weight: 650;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.imgDetail{
+    border-radius: 100%;
+}

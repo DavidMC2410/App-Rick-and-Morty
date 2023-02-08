@@ -1,0 +1,18 @@
+nav {
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 500px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.links{
+
+    color: rgb(255, 255, 134);
+    padding: 20px;
+    border-radius: 15%;
+    background-color: rgb(220, 179, 0);
+    text-decoration: none;
+}

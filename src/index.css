@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('../src/assets/Snake_Planet.webp');
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  object-fit: contain;
+  background-attachment: fixed;
 }
 
 code {

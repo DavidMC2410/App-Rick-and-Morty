@@ -1,0 +1,25 @@
+.searchBar{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 60px;
+    align-items:center;
+    flex-direction: row;
+    background-color: rgb(2, 70, 2);
+    border-radius: 20px;
+    margin-left: 0px;
+    border-style: solid;
+}
+.input{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+.btton{
+    border-radius: 5px;
+    background-color: transparent;
+    color: transparent;
+    padding: 1px;
+    border-color: transparent;
+
+}
