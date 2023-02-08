@@ -15,3 +15,18 @@
 .imgDetail{
     border-radius: 100%;
 }
+.button{
+    padding: 60px;
+    border-radius: 100px;
+    color: darkgreen;
+    background-color: yellowgreen;
+    font-size: 30px;
+    font-weight: 900;
+    border-style: none;
+}
+.button:hover{
+
+    color: yellowgreen;
+    background-color: darkgreen;
+
+}

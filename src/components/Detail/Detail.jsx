@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
-import {useParams} from 'react-router-dom';
+import {useParams, useNavigate} from 'react-router-dom';
 import style from './Detail.module.css';
+
 
 export default function Detail(){
     const {detailId} = useParams();
     const [character, setCharacter]=useState({});
+    const navigate=useNavigate();
 
     useEffect(() => {
         fetch(`https://rickandmortyapi.com/api/character/${detailId}`)
@@ -24,6 +26,9 @@ export default function Detail(){
 
       return (
         <div className={style.contain}>
+            
+            <button onClick={()=>navigate('/home')} className={style.button}>ATRAS!!</button>
+
 
             <div>
                 <img src={character.image} alt="imagen de personaje" className={style.imgDetail}/>

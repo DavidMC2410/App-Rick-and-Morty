@@ -3,9 +3,10 @@ import {Link} from 'react-router-dom';
 
 export default function Card(props) {
    return (
-      <Link to={`/detail/${props.id}`}>
+      
       <div className={style.Card}>
-          <button className={style.btton} onClick={props.onClose}>X</button>
+         <button className={style.btton} onClick={props.onClose}>X</button>
+         <Link to={`/detail/${props.id}`} className={style.noLink}>
           <div className={style.imgAndTitle}>
             <div className={style.Title}>
                <h2>{props.name}</h2>
@@ -18,7 +19,8 @@ export default function Card(props) {
             <h2>{props.species}</h2>
             <h2>{props.gender}</h2>
          </div>
+         </Link>
       </div>
-      </Link>
+      
    );
 }
